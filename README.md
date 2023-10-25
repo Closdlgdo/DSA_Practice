@@ -4,7 +4,7 @@ This repository contains my solutions to various Data Structures and Algorithms 
 
 ## About
 
-I'm a lead installer at Arizona Furnishings with a background in Computer Science. I graduated with my Bachelors degree from Bellevue University in Nebraska. Currently, I'm relearning JavaScript and have experience with Java, Python, C++, and PHP. I'm also proficient in HTML and CSS. In addition to programming, I enjoy playing chess and watching football (soccer).
+I'm a lead installer at Arizona Furnishings with a background in Computer Science. I graduated with my Bachelors degree from Bellevue University in Nebraska. Currently, I'm relearning Python and have experience with Java, JS, C++, and PHP. I'm also proficient in HTML and CSS. In addition to programming, I enjoy playing chess and watching football (soccer).
 
 ## Languages
 
