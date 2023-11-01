@@ -1,1 +1,1 @@
-# Given an array, rotate the array to the right by a given number of steps.
+# Write a function that reverses an array in-place.
