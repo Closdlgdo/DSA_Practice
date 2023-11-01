@@ -10,7 +10,6 @@ print(reverse_array([1, 2, 3, 4, 5]))
 
 # Line 3: This line starts a loop that iterates through the first half of the list nums. The loop variable i will take
 # on the values from 0 to len(nums) // 2 - 1.
-
 # Line 4: Inside the loop, this line swaps the elements at positions i and len(nums) - i - 1. This effectively reverses
 # the order of the elements.
 # Suppose i is 0. This means we're swapping the first element (nums[0]) with the last element (nums[len(nums) - 1 - 0]
