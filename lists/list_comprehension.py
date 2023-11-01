@@ -1,5 +1,5 @@
 # Create a list comprehension that generates a list of squares of even numbers from 1 to 10.
-
+# Formula = new_list = [new_item for item in old_list if condition]
 squares = [x**2 for x in range(1, 11) if x % 2 == 0]  # This is a list comprehension
 
 print(squares)
