@@ -77,16 +77,24 @@ print("----------------------------------------------------------------")
 # MATH OPERATIONS
 
 # Addition
-a = np.array([1, 2, 3])
+a = np.array([4, 3, 2])
 b = np.array([4, 5, 6])
 result = np.add(a, b)
 print(result)
 
+# Add to each number in the array
+a = np.array([1, 5, 6])
+print(a + 2)
+
 # Subtraction
-a = np.array([1, 2, 3])
+a = np.array([4, 2, 4])
 b = np.array([4, 5, 6])
 result = np.subtract(a, b)
 print(result)
+
+# Subtract to each number in the array
+a = np.array([1, 5, 6])
+print(a - 2)
 
 # Multiplication
 a = np.array([1, 2, 3])
@@ -94,11 +102,19 @@ b = np.array([4, 5, 6])
 result = np.multiply(a, b)
 print(result)
 
+# Multiply to each number in the array
+a = np.array([1, 5, 6])
+print(a * 7)
+
 # Division
-a = np.array([1, 2, 3])
-b = np.array([4, 5, 6])
+a = np.array([13, 250, 30])
+b = np.array([4, 8, 6])
 result = np.divide(a, b)
 print(result)
+
+# Divide to each number in the array
+a = np.array([100, 50, 37])
+print(a / 2)
 
 # Exponentiation
 a = np.array([1, 2, 3])
@@ -106,10 +122,18 @@ b = np.array([2, 3, 4])
 result = np.power(a, b)
 print(result)
 
+# Exponent to each number in the array
+a = np.array([4, 3, 7])
+print(a ** 5)
+
 # Square root
 a = np.array([4, 9, 16])
 result = np.sqrt(a)
 print(result)
+
+# Square to each number in the array
+a = np.array([1, 5, 6])
+print(a ** 2)
 
 # Trigonometric functions
 a = np.array([0, np.pi/2, np.pi])
