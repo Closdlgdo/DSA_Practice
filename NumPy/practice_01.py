@@ -40,6 +40,9 @@ print(a)
 var = a[0, 2]
 print(var)
 
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
+
 # Initializing Different types of Arrays.
 # ALL 0s matrices
 print(np.zeros((2, 2)))
@@ -67,3 +70,52 @@ r2 = np.ones((5, 5))
 r2[1:-1, 1:-1] = 0
 r2[2, 2] = 9
 print(r2)
+
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
+
+# MATH OPERATIONS
+
+# Addition
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+result = np.add(a, b)
+print(result)
+
+# Subtraction
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+result = np.subtract(a, b)
+print(result)
+
+# Multiplication
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+result = np.multiply(a, b)
+print(result)
+
+# Division
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+result = np.divide(a, b)
+print(result)
+
+# Exponentiation
+a = np.array([1, 2, 3])
+b = np.array([2, 3, 4])
+result = np.power(a, b)
+print(result)
+
+# Square root
+a = np.array([4, 9, 16])
+result = np.sqrt(a)
+print(result)
+
+# Trigonometric functions
+a = np.array([0, np.pi/2, np.pi])
+result = np.sin(a)
+print(result)
+result = np.cos(a)
+print(result)
+result = np.tan(a)
+print(result)
