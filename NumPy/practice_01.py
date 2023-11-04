@@ -8,7 +8,8 @@
 # How to access/change specific elements of a numpy array:
 import numpy as np
 
-a = np.array([["carlos", 2, 3, 4, 5, 6, "joel"], ["joel", 6, 7, 8, 9, 10, "carlos"], ["Lucas", 62, 57, 28, 39, 130, "Matias"]])
+a = np.array(
+    [["carlos", 2, 3, 4, 5, 6, "joel"], ["joel", 6, 7, 8, 9, 10, "carlos"], ["Lucas", 62, 57, 28, 39, 130, "Matias"]])
 print(a)
 
 # Get a specific element [row, col]
@@ -38,3 +39,31 @@ print(a)
 # Get specific element
 var = a[0, 2]
 print(var)
+
+# Initializing Different types of Arrays.
+# ALL 0s matrices
+print(np.zeros((2, 2)))
+
+# ALL 1s matrices
+print(np.ones((2, 2)))
+
+# Any number
+print(np.full((2, 4), 37))
+print(np.full_like(a, 7))
+
+# Initialize an array with random values
+print(np.random.randint(-4, 4, size=(3, 3)))
+
+# Identity matrix
+print(np.identity(2))
+
+# Repeat an array
+array = np.array([[1, 2, 3, 3]])
+r1 = np.repeat(array, 3, axis=0)
+print(r1)
+
+# Create an array that is a 5x5 matrix where the outside values are 1s, inner is 0s and a single 9 in the middle.
+r2 = np.ones((5, 5))
+r2[1:-1, 1:-1] = 0
+r2[2, 2] = 9
+print(r2)
