@@ -159,3 +159,34 @@ print(np.matmul(a, b))
 # Determinant of a matrix
 c = np.identity(3)
 print(np.linalg.det(c))
+
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
+
+# STATISTICS OPERATIONS: SUM, MEAN, STD, VARIANCE, MIN, MAX, CORRELATION, COVARIANCE, MODE.
+stats = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(stats)
+# find Min
+print(np.min(stats))
+# find Max
+print(np.max(stats))
+# find Mean
+print(np.mean(stats))
+# find Standard Deviation
+print(np.std(stats))
+# find Variance
+print(np.var(stats))
+# find Correlation
+# Calculate the correlation of the array 'stats'
+correlation = np.corrcoef(stats)
+print(correlation)
+# Calculate the covariance of the array 'stats'
+covariance = np.cov(stats)
+print(covariance)
+# # Calculate the mode of the array 'stats'
+# mode = np.mode(stats)
+# print(mode)
+
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
+
