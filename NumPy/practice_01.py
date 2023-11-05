@@ -148,3 +148,14 @@ print("----------------------------------------------------------------")
 print("----------------------------------------------------------------")
 
 # LINEAR ALGEBRA
+
+a = np.ones((2, 3))
+print(a)
+b = np.full((3, 2), 2)
+print(b)
+
+print(np.matmul(a, b))
+
+# Determinant of a matrix
+c = np.identity(3)
+print(np.linalg.det(c))
