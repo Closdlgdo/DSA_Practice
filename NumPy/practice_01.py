@@ -190,3 +190,25 @@ print(covariance)
 print("----------------------------------------------------------------")
 print("----------------------------------------------------------------")
 
+# Reorganizing Arrays
+before = np.array([[1, 2, 3, 5], [4, 5, 6, 7]])
+print(before)
+# We are able to change the shape of the array.
+after = before.reshape((2, 2, 2))
+print(after)
+
+# Vertically Stacking vectors
+v1 = np.array([11, 2, 23, 44])
+v2 = np.array([54, 25, 16, 7])
+
+print(np.vstack([v1, v2, v1, v2]))
+
+# Horizontally Stacking vectors
+v1 = np.array([21, 12, 2, 44])
+v2 = np.array([42, 12, 6, 7])
+
+result = np.hstack([v1, v2, v1, v2])
+print(result)
+
+print("----------------------------------------------------------------")
+print("----------------------------------------------------------------")
