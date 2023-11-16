@@ -1,11 +1,11 @@
 # Write a function that reverses an array in-place.
-# def reverse_array(nums):
-#     for i in range(len(nums) // 2):
-#         nums[i], nums[len(nums) - i - 1] = nums[len(nums) - i - 1], nums[i]
-#     return nums
-#
-#
-# print(reverse_array([1, 2, 3, 4, 5]))
+def reverse_array(nums):
+    for i in range(len(nums) // 2):
+        nums[i], nums[len(nums) - i - 1] = nums[len(nums) - i - 1], nums[i]
+    return nums
+
+
+print(reverse_array([1, 2, 3, 4, 5]))
 
 # Line 3: This line starts a loop that iterates through the first half of the list nums. The loop variable i will take
 # on the values from 0 to len(nums) // 2 - 1.
@@ -23,5 +23,4 @@
 # This is the list comprehension version of the above code.
 
 nums = [1, 2, 3, 4]
-reverse_array = [nums[len(nums) - i - 1] for i in range(len(nums) // 2)]
-print(reverse_array)
+print([nums[len(nums) - i - 1] for i in range(len(nums))])

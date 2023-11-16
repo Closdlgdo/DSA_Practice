@@ -1,14 +1,14 @@
 # Write a Python function that takes a list of numbers as input and returns the maximum element in the list.
 
-def max_element(nums):
-    max_num = nums[0]
-    for num in nums:
-        if num > max_num:
-            max_num = num
-    return max_num
-
-
-print(max_element([1, 3, 43, 554, 65]))
+# def max_element(nums):
+#     max_num = nums[0]
+#     for num in nums:
+#         if num > max_num:
+#             max_num = num
+#     return max_num
+#
+#
+# print(max_element([1, 3, 43, 554, 65]))
 
 # Line 3: # This line defines a Python function named max_element that takes one argument, nums.
 #     # This function is designed to find the maximum element in a list of numbers.
@@ -22,3 +22,6 @@ print(max_element([1, 3, 43, 554, 65]))
 #     # making it the new maximum.
 # Line 8: # This line is outside the loop and if statement. It means that once the loop has finished iterating through all
 #     # elements, the function will return the maximum element found, which is stored in max_num.
+nums = [1, 3, 43, 554, 65]
+max_element = ([num for num in nums if num == max(nums)])
+print(max_element)
